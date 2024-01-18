@@ -25,4 +25,4 @@ product["url"] = current_url
 product["image"] = soup.select_one(".wp-post-image")["src"]
 product["title"] = soup.select_one(".product_title").text() 
     # product["price"] = ...
-products.push(product)
+product.push(product)
