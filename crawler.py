@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-    # initialize the list of discovered urls
+    # initialize the list of discovered url
     # with the first page to visit
 urls = ["https://scrapeme.live/shop/"]
 
